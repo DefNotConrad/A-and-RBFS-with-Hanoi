@@ -3,6 +3,7 @@
 //  aStar
 //
 //  Created by Britain Mackenzie on 10/29/19.
+//  Edited by Andrew Brooks 11/11/19
 //  Copyright © 2019 Britain Mackenzie. All rights reserved.
 //
 
@@ -13,11 +14,6 @@
 #include <math.h>
 #include <sys/time.h>
 
-
-//#define ANDREW
-//#define BRITAIN
-
-//#define OPTIMAL
 
 /*_______________ACTION DEF_______________*/
 
@@ -208,7 +204,7 @@ void getH (Node* node){
          if (disk(n) is not on goal){ n + (# on first tower)      (+ # on goal )(maybe)
          else (n-correct on goal) + # stacked (size - 1) + (correct on goal-size.goal())
          
-         may possibly add if the disks aren't stacked in proper order hn+1 for each tower as one smaller is optimal
+         if the disks aren't stacked in proper order hn+1 for each tower as one smaller is optimal
          */
         
         int hn = 0;
