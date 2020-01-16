@@ -3,7 +3,7 @@ Using A* and RBFS with created heuristic to traverse a binary move tree in a Tow
 
 ##Files##
   aStar.cpp
-  OldaStar.cpp
+  OldAstar.cpp
   RBFS.cpp
   Makefile
   README
@@ -36,7 +36,7 @@ Using A* and RBFS with created heuristic to traverse a binary move tree in a Tow
   CLOSED_OLD = a successor of BESTNODE which has already been CLOSED
   
   Contributers:
-  Britain Mackenzie - aStar.cpp, OldaStar.cpp, RBFS.cpp
+  Britain Mackenzie - aStar.cpp, OldAstar.cpp, RBFS.cpp
   Andrew Brooks - Makefile, README, aStar.cpp
   
   
